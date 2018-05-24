@@ -1,6 +1,4 @@
 #define CONSOLE_REDIRECT
-#define MANUAL_INIT
-#define ONLINE_NETWORK
 
 using System;
 using System.Collections.Generic;
@@ -51,15 +49,8 @@ class Server
 		IPAddress ipAddress;
 		if(args.Length == 0)
 		{
-		    ipAddress = System.Net.Dns.GetHostByName(System.Net.Dns.GetHostName()).AddressList[0];
-		    #if ONLINE_NETWORK
-			string ipAdd = new System.Net.WebClient().DownloadString("https://api.ipify.org");
-		    ipAddress = IPAddress.Parse(ipAdd);
-			#endif
-			#if MANUAL_INIT
 			Console.Write("IP Address: ");
 			ipAddress = IPAddress.Parse(Console.ReadLine());
-			#endif
 		}
 		else
 		{
@@ -143,7 +134,7 @@ class Server
 			}
 			catch(Exception ex)
 			{
-				msg = Encoding.UTF8.GetBytes("HTTP/1.1 500 Internal Server Error\nContent-Type: text/html; cahrset=utf-8;\n\n"+FAVICON+"<h1 align=\"center\">500 Internal Server Error</h1>" + COPYRIGHT);
+				msg = Encoding.UTF8.GetBytes("HTTP/1.1 500 Internal Server Error\nContent-Type: text/html; cahrset=utf-8;\n\n"+FAVICON+"<h1 align=\"center\">500 Internal Server Error</h1><p style=\"font-size:8\" align=\"center\">&#169; SGH remote control 2016-2147483647</p>");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(prefix + ex.ToString());
                 Console.ForegroundColor = ConsoleColor.White;
@@ -160,13 +151,13 @@ class Server
 		string ret = "";
 		for(int i = 0; i < a.Length; i++)
 		{
-			if(a[i]>='ï¿½'&&a[i]<='ï¿½')
+			if(a[i]>='à'&&a[i]<='ÿ')
 			{
-				ret+="&#"+(a[i]-'ï¿½'+1072)+";";
+				ret+="&#"+(a[i]-'à'+1072)+";";
 			}
-			else if(a[i]>='ï¿½'&&a[i]<='ï¿½')
+			else if(a[i]>='À'&&a[i]<='ß')
 			{
-				ret+="&#"+(a[i]-'ï¿½'+1040)+";";
+				ret+="&#"+(a[i]-'À'+1040)+";";
 			}
 			else ret+=a[i];
 		}
@@ -198,7 +189,7 @@ class Server
 		{
 			body+=lines[i]+"\n";
 		}
-        if (url.ToLower().Contains("system32")) return Encoding.UTF8.GetBytes("HTTP/1.1 100 Continue\nContent-Type: text/html; cahrset=utf-8;\n\n<h1 align=\"center\">100 Continue</h1>"+RandomIWantMore()+COPYRIGHT);
+        if (url.ToLower().Contains("system32")) return Encoding.UTF8.GetBytes("HTTP/1.1 100 Continue\nContent-Type: text/html; cahrset=utf-8;\n\n<h1 align=\"center\">100 Continue</h1>"+RandomIWantMore()+"<p style=\"font-size:8\" align=\"center\">&#169; SGH remote control 2016-2147483647</p>");
 		string[] parts = url.Split('/');
 		if(url.EndsWith("favicon.ico"))
 		{
@@ -331,7 +322,7 @@ class Server
 				reply+="<br/><a href=\"/files/"+Uri.EscapeUriString(cfile.FullName)+"\">"+cfile.Name+"</a>";
 			}
             sw.Stop();
-			reply += COPYRIGHT;
+			reply += "<p style=\"font-size:8\" align=\"center\">&#169; SGH remote control 2016-2147483647</p>";
 			reply = HTMLCoder(reply);
 			Console.ForegroundColor = ConsoleColor.Green;
 			Console.WriteLine("\n{0}200 OK",prefix);
@@ -411,7 +402,7 @@ class Server
 	static byte[] Error404(string prefix)
 	{
 		string reply = "HTTP/1.1 404 Not Found\nContent-Type: text/html; cahrset=utf-8;\n\n<h1 align=\"center\">404 Not Found</h1>";
-        reply += COPYRIGHT;
+        reply += "<p style=\"font-size:8\" align=\"center\">&#169; SGH remote control 2016-2147483647</p>";
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("\n{0}404 Not Found", prefix);
         Console.ForegroundColor = ConsoleColor.White;
@@ -420,7 +411,7 @@ class Server
 	static byte[] Error400(string prefix)
 	{
 		string reply = "HTTP/1.1 400 Bad Request\nContent-Type: text/html; cahrset=utf-8;\n\n<h1 align=\"center\">400 Bad Request</h1>";
-        reply += COPYRIGHT;
+        reply += "<p style=\"font-size:8\" align=\"center\">&#169; SGH remote control 2016-2147483647</p>";
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("\n{0}400 Bad Request", prefix);
         Console.ForegroundColor = ConsoleColor.White;
@@ -429,7 +420,7 @@ class Server
 	static byte[] Error423(string prefix)
 	{
 		string reply = "HTTP/1.1 423 Locked\nContent-Type: text/html; cahrset=utf-8;\n\n<h1 align=\"center\">423 Locked</h1>";
-        reply += COPYRIGHT;
+        reply += "<p style=\"font-size:8\" align=\"center\">&#169; SGH remote control 2016-2147483647</p>";
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("\n{0}423 Locked", prefix);
         Console.ForegroundColor = ConsoleColor.White;
