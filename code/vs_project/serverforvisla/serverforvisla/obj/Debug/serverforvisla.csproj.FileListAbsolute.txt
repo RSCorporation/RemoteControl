@@ -4,3 +4,10 @@ G:\remote\serverforvisla\serverforvisla\bin\Debug\serverforvisla.pdb
 G:\remote\serverforvisla\serverforvisla\obj\Debug\serverforvisla.csprojResolveAssemblyReference.cache
 G:\remote\serverforvisla\serverforvisla\obj\Debug\serverforvisla.exe
 G:\remote\serverforvisla\serverforvisla\obj\Debug\serverforvisla.pdb
+E:\Git\RemoteControl\code\vs_project\serverforvisla\serverforvisla\obj\Debug\serverforvisla.csprojResolveAssemblyReference.cache
+E:\Git\RemoteControl\code\vs_project\serverforvisla\serverforvisla\obj\Debug\serverforvisla.csproj.CoreCompileInputs.cache
+E:\Git\RemoteControl\code\vs_project\serverforvisla\serverforvisla\obj\Debug\serverforvisla.exe
+E:\Git\RemoteControl\code\vs_project\serverforvisla\serverforvisla\obj\Debug\serverforvisla.pdb
+E:\Git\RemoteControl\code\vs_project\serverforvisla\serverforvisla\bin\Debug\serverforvisla.exe.config
+E:\Git\RemoteControl\code\vs_project\serverforvisla\serverforvisla\bin\Debug\serverforvisla.exe
+E:\Git\RemoteControl\code\vs_project\serverforvisla\serverforvisla\bin\Debug\serverforvisla.pdb

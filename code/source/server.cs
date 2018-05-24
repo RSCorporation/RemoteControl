@@ -1,6 +1,5 @@
 #define CONSOLE_REDIRECT
 #define MANUAL_INIT
-#define ONLINE_NETWORK
 
 using System;
 using System.Collections.Generic;
@@ -52,13 +51,12 @@ class Server
 		if(args.Length == 0)
 		{
 		    ipAddress = System.Net.Dns.GetHostByName(System.Net.Dns.GetHostName()).AddressList[0];
-		    #if ONLINE_NETWORK
-			string ipAdd = new System.Net.WebClient().DownloadString("https://api.ipify.org");
-		    ipAddress = IPAddress.Parse(ipAdd);
-			#endif
 			#if MANUAL_INIT
 			Console.Write("IP Address: ");
 			ipAddress = IPAddress.Parse(Console.ReadLine());
+			#else
+			string ipAdd = new System.Net.WebClient().DownloadString("https://api.ipify.org");
+		    ipAddress = IPAddress.Parse(ipAdd);
 			#endif
 		}
 		else

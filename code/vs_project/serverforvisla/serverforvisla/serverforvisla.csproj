@@ -12,6 +12,21 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,11 +58,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Server\Constants.cs" />
+    <Compile Include="Server\Defenitions.cs" />
+    <Compile Include="Server\Server.GenRandomToken.cs" />
+    <Compile Include="Server\Server.RandomIWantMore.cs" />
+    <Compile Include="Server\Server.RemoteCommandExecution.cs" />
+    <Compile Include="Server\Server.HTTPMainPageRequest.cs" />
+    <Compile Include="Server\Server.HTTPErrors.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server\Server.AuthorizationData.cs" />
+    <Compile Include="Server\Server.Bind.cs" />
+    <Compile Include="Server\Server.HandleData.cs" />
+    <Compile Include="Server\Server.HeaderAuth.cs" />
+    <Compile Include="Server\Server.HTMLCoder.cs" />
+    <Compile Include="Server\Server.HTTPDirectoryRequest.cs" />
+    <Compile Include="Server\Server.HTTPFaviconRequest.cs" />
+    <Compile Include="Server\Server.HTTPFileRequest.cs" />
+    <Compile Include="Server\Server.LaunchCmd.cs" />
+    <Compile Include="Server\Server.Listen.cs" />
+    <Compile Include="Server\Server.Main.cs" />
+    <Compile Include="Server\Server.PostAuth.cs" />
+    <Compile Include="Server\Server.REQFiles.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

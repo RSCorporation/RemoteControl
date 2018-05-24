@@ -1,3 +1,5 @@
 Working version uploaded
 v0.0.1
   External IP automated parser added. Some repeated code blocks replaced using constant.
+v0.0.2
+  All source code is divided to different files now. It brings more availability to work on this code in team
