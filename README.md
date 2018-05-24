@@ -1,2 +1,2 @@
 # RemoteControl
-TODO: prepare project with all functions separated to different files
+In project Server we have a task list.
