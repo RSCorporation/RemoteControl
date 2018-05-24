@@ -1,0 +1,6 @@
+G:\remote\serverforvisla\serverforvisla\bin\Debug\serverforvisla.exe.config
+G:\remote\serverforvisla\serverforvisla\bin\Debug\serverforvisla.exe
+G:\remote\serverforvisla\serverforvisla\bin\Debug\serverforvisla.pdb
+G:\remote\serverforvisla\serverforvisla\obj\Debug\serverforvisla.csprojResolveAssemblyReference.cache
+G:\remote\serverforvisla\serverforvisla\obj\Debug\serverforvisla.exe
+G:\remote\serverforvisla\serverforvisla\obj\Debug\serverforvisla.pdb

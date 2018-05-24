@@ -1,0 +1,1238 @@
+Restoring user passwords data... done.
+Launching cmd for rce... done.
+Start binding 10.10.10.117 at port 80
+Binded.
+Start listening connections.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   rce/exec requested   Extracting Cookies from headers... done.
+   Trying to auth... authorization failed.
+
+   423 Locked
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   favicon.ico requested
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+    requested
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   login requested   Authorizing user...System.ArgumentOutOfRangeException: startIndex не может быть больше, чем длина строки.
+Имя параметра: startIndex
+   в System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   в Server.PostAuth(String body, String prefix)
+   в Server.HandleData(String data, String prefix, String secondprefix)
+   в Server.Listen(String prefix, String secondprefix)
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   login requested   Authorizing user...succes.
+   god succesfully authorized
+
+   202 Accepted
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+System.ArgumentOutOfRangeException: startIndex не может быть больше, чем длина строки.
+Имя параметра: startIndex
+   в System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   в Server.HandleData(String data, String prefix, String secondprefix)
+   в Server.Listen(String prefix, String secondprefix)
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/ requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   404 Not Found
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/D: requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/D:/ requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/D:/favicon.ico requested
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F: requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:/ requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:/favicon.ico requested
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:/ requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F: requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:t requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F: requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\remote\fav.ico requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F: requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\remote\server.exe requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\remote\server.cs requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:/ requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Y17R8P31 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Y17R8P31\Y17R8P31_B.pas requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Y17R8P31\Y17R8P31_D.cpp requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Герои requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Герои\Герои 3,5 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Герои\Герои 3,5\DEATH requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Герои\Герои 3,5\BLADE requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Герои\Герои 3,5\DEATH requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:/ requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\RESoundCodec requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\XP requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\XP\system32 requested Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Praetorians requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\RESoundCodec requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\RESoundCodec\RESoundCodec requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\RESoundCodec\RESoundCodec\bin requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\RESoundCodec\RESoundCodec\bin\Debug requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\RESoundCodec\RESoundCodec\bin\Debug\RESoundCodec.exe requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\RESoundCodec\RESoundCodec\bin\Debug\trololo.resound requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\RESoundCodec\RESoundCodec\bin\Debug\humanity.resound requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\game requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\game\game requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\game\game\bin requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\game\game\bin\Debug requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\game\game\bin\Debug\game.exe requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\game\game\bin\Debug\back.exe requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\close requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\safer requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\safer\safer requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\safer\safer\bin requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\safer\safer\bin\Debug requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\safer\safer\bin\Debug\safer.exe requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\safer\safer\Program.cs requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Locker requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Locker\Locker requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Locker\Locker\bin requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Locker\Locker\bin\Debug requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\MNPK16 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\!p1 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\!p1\Project2.exe requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\core requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\work requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\СТАРТ В НАУКУ 2017 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\Новая папка requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\autorun requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\autorun\autorun requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\autorun\autorun\autorun requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\autorun\autorun\autorun\bin requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\autorun\autorun\autorun\bin\Debug requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\autorun\autorun\autorun\bin\Debug\autorun.exe requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\C requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   404 Not Found
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\C requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   404 Not Found
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\System_Volume_Information requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\System_Volume_Information\IndexerVolumeGuid requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\.Spotlight-V100 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd\cmd requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd\cmd\bin requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd\cmd\bin\Debug requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd\cmd\bin\Debug\cmd.exe requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd2 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd\cmd requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd\cmd\Program.cs requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd2 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\cmd2\cmd2 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\ConsoleApplication1 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\ConsoleApplication1\ConsoleApplication1 requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\ConsoleApplication1\ConsoleApplication1\bin requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\ConsoleApplication1\ConsoleApplication1\bin\Debug requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
+ Awaiting client... 10.10.10.117:80 connected.
+ Receiving data... data recieved.
+  Request parsing started.
+   Parsing top string... done.
+   Parsing Headers... done.
+   files/F:\cmd2RussianEdition\ConsoleApplication1\ConsoleApplication1\Program.cs requested   Extracting Cookies from headers... done.
+   Trying to auth... success.
+   god authorized
+   File content to answer...
+   200 OK
+ Sending data...
+ done.
+ Shutting down connection.
